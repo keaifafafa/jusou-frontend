@@ -27,7 +27,7 @@ interface Props {
 
 // 默认赋值
 const props = withDefaults(defineProps<Props>(), {
-  userList: () => []
+  userList: () => [],
 });
 </script>
 
